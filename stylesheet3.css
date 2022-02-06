@@ -1,0 +1,166 @@
+
+@font-face {
+    font-family:"Pixelar Regular W01 Regular";
+    src: url("Pixelar Regular.woff2");
+}
+body{
+    background-color: #FF1FE4;
+    cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFklEQVRYR9WXURLDIAhE6/0PbSdOtUpcd1Gnpv1KGpTHBpCE1/cXq+vrMph7dGvXZTtpfW10DCA5jrH1H0Jhs5E0hnZdCR+vb5S8Nn8mQCeS9BdSalYJqMBjAGzq59xAESN7VFVUgV8AZB/dZBR7QTFDCqGquvUBVVoEtgIwpQRzmANSFHgWQKExHdIrPeuMvQNDarXe6nC/AutgV3JW+6bgqQLeV8FekRtgV+ToDKEKnACYKsfZjjkam7a0ZpYTytwmgainpC3HvwBocgKOxqRjehoR9DFKNFYtOwCGYCszobeCbl26N6yyQ6g8X/Wex/rBPsNEV6qAMaJPMynIHQCoSqS9JSMmwef51LflTgCRszU7DvAGiV6mHWfsaVUAAAAASUVORK5CYII=),auto;
+
+}
+.name{
+    background-color: #3734eb;
+    border-style: solid;
+    border-radius: 100px;
+    border-color: black;
+    color: aliceblue;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+    
+
+
+}
+#myname{
+    text-decoration: underline ;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+ 
+}
+.menu{
+    display: flex;
+   
+    justify-content:space-around;
+    width: 100%;
+    margin-top: 1%;
+   
+}
+a{
+    text-decoration: none;
+    color: #FF1FE4;
+    font-family:"Pixelar Regular W01 Regular";
+    font-size: x-large;
+    cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC) 14 0,pointer;
+    
+}
+
+#touch1{
+    color:white
+}
+#name1{
+    color:white
+}
+
+
+
+
+.navi li{
+  
+    overflow:hidden;
+    float: left;
+    
+    
+    display: flex;
+   
+   
+}
+.navi{
+    border-style: solid;
+    border-color: #ca890f;
+    overflow: hidden;
+    border-width: 5px;
+}
+.color{
+    background-color: #f8e919e5;
+    width: 100%;
+    height: 100%;
+    border: #ffd104 1px solid;
+    
+    padding-top: 1%;
+}
+li{
+    font-family:var(Pixelar);
+    font-size: x-large;
+    padding-left: 5px;
+    padding-right: 45px;
+    font-weight: 50;
+}
+.touch{
+    background-color: #3734eb;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    color: aliceblue;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    font-family:"Pixelar Regular W01 Regular";
+    font-size: large;
+    font-weight: 700;
+    padding-top: 0.3%;
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+
+  }
+
+
+
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #3734eb;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #3734eb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #FF1FE4;
+    border-color: #3734eb;
+    padding: 10px;
+    margin-top: 2%;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

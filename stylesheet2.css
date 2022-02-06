@@ -1,0 +1,187 @@
+@font-face {
+    font-family:"Pixelar Regular W01 Regular";
+    src: url("Pixelar Regular.woff2");
+}
+body{
+    background-color: #FF1FE4;
+    cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFklEQVRYR9WXURLDIAhE6/0PbSdOtUpcd1Gnpv1KGpTHBpCE1/cXq+vrMph7dGvXZTtpfW10DCA5jrH1H0Jhs5E0hnZdCR+vb5S8Nn8mQCeS9BdSalYJqMBjAGzq59xAESN7VFVUgV8AZB/dZBR7QTFDCqGquvUBVVoEtgIwpQRzmANSFHgWQKExHdIrPeuMvQNDarXe6nC/AutgV3JW+6bgqQLeV8FekRtgV+ToDKEKnACYKsfZjjkam7a0ZpYTytwmgainpC3HvwBocgKOxqRjehoR9DFKNFYtOwCGYCszobeCbl26N6yyQ6g8X/Wex/rBPsNEV6qAMaJPMynIHQCoSqS9JSMmwef51LflTgCRszU7DvAGiV6mHWfsaVUAAAAASUVORK5CYII=),auto;
+
+}
+.name{
+    background-color: #3734eb;
+    border-style: solid;
+    border-radius: 100px;
+    border-color: black;
+    color: aliceblue;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+    
+
+
+}
+#myname{
+    text-decoration: underline ;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+ 
+}
+.menu{
+    display: flex;
+   
+    justify-content:space-around;
+    width: 100%;
+    margin-top: 1%;
+   
+}
+a{
+    text-decoration: none;
+    color: #FF1FE4;
+    font-family:"Pixelar Regular W01 Regular";
+    font-size: x-large;
+    cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC) 14 0,pointer;
+    
+}
+#touch1{
+    color:white
+}
+#name1{
+    color:white
+}
+
+
+
+
+.navi li{
+  
+    
+    overflow:hidden;
+    float: left;
+    
+    
+    display: flex;
+   
+   
+}
+.navi{
+    border-style: solid;
+    border-color: #ca890f;
+    overflow: hidden;
+    border-width: 5px;
+}
+.color{
+    background-color: #f8e919e5;
+    width: 100%;
+    height: 100%;
+    border: #ffd104 1px solid;
+    padding-right: 9.5%;
+    padding-top: 1%;
+}
+li{
+    font-family:var(Pixelar);
+    font-size: x-large;
+    padding-left: 5px;
+    padding-right: 45px;
+    font-weight: 50;
+}
+.touch{
+    background-color: #3734eb;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    color: aliceblue;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    font-family:"Pixelar Regular W01 Regular";
+    font-size: large;
+    font-weight: 700;
+    padding-top: 0.3%;
+}
+
+
+.profile{
+    background-color: rgb(12, 240, 240);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    margin-top: 4%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 5%;
+    padding-right: 0%;
+   
+    border-style: solid;
+    border-color:  #f8e919e5;
+    border-radius: 5px;
+    border-width: 18px;
+     
+
+   
+}
+
+#myimage{
+    width: 60%;
+    height: 70%;
+    padding-left: 15%;
+  
+   
+   
+}
+#image{
+   padding-top: 200px;
+   padding-left: 10%;
+   padding-right:10%
+}
+#data{
+    padding-right: 15%;
+    padding-top: 0.5%;
+    font-family:"Pixelar Regular W01 Regular";
+    font-size: 150%;
+    line-height: 100%;
+
+   
+}
+#s1{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+      typing 10s steps(15, end) forwards,
+      blink .8s infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0% }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+  
+#pd {
+    padding-top: 15%;
+}
+
+.skills{
+    
+    justify-content: center;    
+
+}
+.logo{
+    display: flex;
+    justify-content:space-around;
+    align-content: center;
+    padding-top: 10%;
+}
+.content{
+    display: flex;
+    justify-content:space-around;
+    align-content: center;
+}
